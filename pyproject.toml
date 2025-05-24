@@ -1,0 +1,33 @@
+[project]
+name = "autohex"
+version = "0.1.0"
+authors = [
+  { name="Jeonghwan Park", email="reniya@kaist.ac.kr" },
+]
+description = "Generate unique and vibrant hex color codes from text."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+keywords = ["color", "hex", "generator", "hash", "hsl"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Multimedia :: Graphics",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "build>=1.2.2.post1",
+    "twine>=6.1.0",
+]
