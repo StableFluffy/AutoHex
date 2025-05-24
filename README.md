@@ -25,12 +25,12 @@ generator = AutoHex()
 
 # Generate a hex color from text
 color = generator.gen("hello world")
-print(color)  # #7c5ab8
+print(color)  # #664df9
 
 # Use a seed for consistent variations
 seeded_generator = AutoHex(seed="my-project")
 color = seeded_generator.gen("hello world")
-print(color)  # Different color due to seed
+print(color)  # #ec5915
 ```
 
 ## API Reference
