@@ -31,3 +31,7 @@ dev = [
     "build>=1.2.2.post1",
     "twine>=6.1.0",
 ]
+
+[tool.ruff.lint]
+select = ["E", "F"]
+ignore = ["E741"]
